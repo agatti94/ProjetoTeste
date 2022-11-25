@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.d4i.sample.movie.category.exception.CategoryAlreadyExistException;
+import com.d4i.sample.movie.category.ports.exception.CategoryAlreadyExistException;
 import com.d4i.sample.movie.category.usecase.CreateCategoryUseCase;
 import com.d4i.sample.movie.category.usecase.GetAllCategoriesUseCase;
 import com.d4i.sample.movie.delivery.CategoryController;

@@ -1,7 +1,7 @@
 package com.d4i.sample.movie.category.usecase;
 
 import com.d4i.sample.movie.category.Category;
-import com.d4i.sample.movie.category.exception.CategoryAlreadyExistException;
+import com.d4i.sample.movie.category.ports.exception.CategoryAlreadyExistException;
 
 public interface CreateCategoryUseCase {
 

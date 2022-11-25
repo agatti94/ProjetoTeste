@@ -1,4 +1,4 @@
-package com.d4i.sample.movie.category.exception;
+package com.d4i.sample.movie.category.ports.exception;
 
 
 
