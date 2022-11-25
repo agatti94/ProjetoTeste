@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java_version: ['11', '17', '>=19']
+        java_version: ['11']
         os: ['ubuntu-latest']
 
     steps:
